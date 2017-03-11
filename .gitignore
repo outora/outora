@@ -1,0 +1,15 @@
+.DS_Store
+env/
+db_repository/
+db_create.py
+db_upgrade.py
+db_downgrade.py
+db_migrate.py
+*.pyc
+config_local.py
+deets.txt
+# Flask stuff:
+instance/
+.webassets-cache
+NOT_IN_USE/
+uwsgi.ini
