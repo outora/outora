@@ -11,7 +11,7 @@
 *
 * Copyright 2017 Outora Pty Ltd
 *
-* Crafted with care at https://outora.com
+* Built with love at https://outora.com
 *
 */
 
@@ -1775,11 +1775,11 @@ nav[role="nav"].top-nav ul > li span {
 
 .home-block-one .block-one-btn,
 .home-block-three .block-three-btn {
-    height: 58px;
-    line-height: 60px;
+    height: 48px;
+    line-height: 50px;
     border-radius: 40px;
-    padding-left: 31px;
-    padding-right: 31px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .home-block-one .block-one-p1 {
@@ -1796,10 +1796,10 @@ nav[role="nav"].top-nav ul > li span {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 24px;
+  margin-top: 16px;
   font-size: 24px;
   font-weight: bold;
-  font-family: 'proxima-nova',arial,sans-serif;
+  font-family: arial,sans-serif;
 }
 
 .join-block .block-one-btn {
@@ -1942,18 +1942,14 @@ nav[role="nav"].top-nav ul > li span {
   border-width: 0;
   border-top-width: 0px;
   border-bottom-width: 0px;
-  height: 120px;
+  height: auto;
+  min-height: 52px;
   text-align: left;
 }
 
 .footer .col-7 {
   text-align: right;
 }
-
-/*.footer .row {
-  margin-left: 0px;
-}*/
-
 .home .footer .col-14 {
   padding-left: 60px;
   padding-right: 0px;
@@ -1987,9 +1983,6 @@ nav[role="nav"].top-nav ul > li span {
 }
 
 @media screen and (max-width: 1039px) {
-  .footer {
-    height: 150px;
-  }
   .footer .col-7 {
     text-align: left;
     padding-left: 60px;
@@ -2036,9 +2029,6 @@ nav[role="nav"].top-nav ul > li span {
     display: none !important;
   }
 
-  .footer {
-    height: 150px;
-  }
   .first-letter {
     text-transform: capitalize;
   }
@@ -2074,9 +2064,6 @@ nav[role="nav"].top-nav ul > li span {
     margin-right: 16px;
     display: inline-block;
   }*/
-  .footer {
-    height: 177px;
-  }
   .home .footer .col-14,
   .home .footer .col-7 {
     padding-left: 0px;
