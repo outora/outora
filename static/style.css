@@ -1664,6 +1664,10 @@ nav[role="nav"] li:hover li:last-child {
     width: 100%;
     text-align: left;
   }
+  
+  html {
+      background-color: #000000 !important;
+  }
   nav[role="nav"] .nav-collapse input[type=checkbox]:checked ~ ul > li:after {
     position: absolute;
   }
